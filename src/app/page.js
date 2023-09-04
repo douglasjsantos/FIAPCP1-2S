@@ -2,6 +2,7 @@ import Banner from "./components/Banner"
 import Banner2 from "./components/Banner2"
 import Banner3 from "./components/Banner3"
 import Selecao from "./components/Selecao"
+import Finalizado from "./components/Finalizado"
 export default function Home() {
   return (
     <main>
@@ -15,7 +16,7 @@ export default function Home() {
       <br></br>
       <Banner3 />
       <Selecao/>
-      
+      <Finalizado/>
       {/* <button className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">Selecionar imagem</button>
       <button className="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded">Enviar</button>
       <button className="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded">Prosseguir</button> */}
