@@ -1,5 +1,3 @@
-
-
 export default function Selecao() {
     return (
         <div className="max-w-4xl mx-auto mt-8">
@@ -8,6 +6,7 @@ export default function Selecao() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div className="bg-white p-4 rounded-md cursor-pointer hover:bg-gray-100">
     <div className="flex items-center">
+        
         <div>
             <p className="text-black font-extrabold">CAVALO MECÂNICO</p>
             <p className="text-xs text-gray-700">Eixo Simples</p>
@@ -55,21 +54,17 @@ export default function Selecao() {
     </div>
 </div>
 
-<div className="bg-white p-4 rounded-md cursor-pointer hover:bg-gray-100">
-    <div className="flex items-center">
-        <div>
-            <p className="text-black font-extrabold">CARRETA 3 EIXOS</p>
-            <p className="text-xs text-gray-700">Três eixos</p>
-        </div>
-        <div className="ml-auto">
-            <img
-                src="/caminhoes/c4.png"
-                alt="Caminhão 3"
-                className="h-auto max-h-16"
-            />
-        </div>
-    </div>
-</div>
+<div className="p-4 rounded-md cursor-pointer hover:bg-gray-100 border border-black border-solid border-2">
+                        <div className="flex items-center">
+                            <div>
+                                <p className="text-white font-extrabold">CARRETA 3 EIXOS</p>
+                                <p className="text-xs text-gray-700">Três eixos</p>
+                            </div>
+                            <div className="ml-auto">
+                                <img src="/caminhoes/c4.png" alt="Caminhão 4" className="h-auto max-h-16" />
+                            </div>
+                        </div>
+                    </div>
 
 <div className="bg-white p-4 rounded-md cursor-pointer hover:bg-gray-100">
     <div className="flex items-center">
